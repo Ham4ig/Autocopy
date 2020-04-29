@@ -5,10 +5,10 @@ import os
 import time
 from transliterate import translit,  get_available_language_codes
 
-host='ham4ig.dlinkddns.com'
-user='Nina'
-passwd="Stimg123"
-port=5190
+host='Адрес Вашего FTP'
+user='Логин для входа'
+passwd="Пароль для входа"
+port=5190#Порт для подключения
 filename = ""
 FTP = ftplib.FTP()
 u_name= os.getlogin()
